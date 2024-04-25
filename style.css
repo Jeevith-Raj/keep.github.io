@@ -19,6 +19,7 @@
     align-items: center;
     font-size: 35px;
     font-weight: 600;
+    
 }
 
 .container h1 img{
@@ -34,6 +35,26 @@
     outline: 0;
     font-size: 16px;
     cursor: pointer;
-    border: ;
     border-radius: 5px;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-width: 150px;
+    background: #fff;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 20px;
+}
+
+.inputbox img{
+    width: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+
 }
